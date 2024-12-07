@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db.changelog/create-wallet-table.yaml
+  - include:
+      file: db.changelog/add-test-data-to-table.yaml

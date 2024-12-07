@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-test-data
+      author: Elizabeth
+      changes:
+        - insert:
+            tableName: wallet
+            columns:
+              - column:
+                  name: wallet_id
+                  value: '550e8400-e29b-41d4-a716-446655440000'
+              - column:
+                  name: amount
+                  value: '1000.00'
